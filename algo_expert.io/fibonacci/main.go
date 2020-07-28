@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func getNthFib(number int) int {
 
 	if number <= 1 || number == 0 {
@@ -19,8 +21,6 @@ func getNthFib(number int) int {
 	return next
 }
 
-func main() {
-
-	getNthFib(10)
-
+func main () {
+	fmt.Println(getNthFib(6))
 }
